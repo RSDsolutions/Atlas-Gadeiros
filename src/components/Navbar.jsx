@@ -43,11 +43,8 @@ export default function Navbar() {
     >
       <div className="flex justify-between items-center w-full px-6 md:px-16 py-4 max-w-[1280px] mx-auto">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-3 shrink-0">
+        <Link to="/" className="flex items-center shrink-0">
           <img src={LOGO} alt="Atlas & Gadeiros Logo" className="h-11 w-11 object-contain" />
-          <span className="hidden lg:block font-lexend text-[20px] font-bold text-on-surface leading-tight">
-            Atlas &amp; Gadeiros Sports Group
-          </span>
         </Link>
 
         {/* Desktop nav */}
